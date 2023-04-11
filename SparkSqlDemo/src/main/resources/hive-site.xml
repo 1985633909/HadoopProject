@@ -21,20 +21,20 @@
       <name>javax.jdo.option.ConnectionDriverName</name>
       <value>com.mysql.cj.jdbc.Driver</value>
   </property>
-<!-- <property>-->
-<!--  	<name>hive.exec.scratchdir</name>  -->
-<!--    <value>/hive/tmp</value>-->
-<!--  </property>-->
+ <property>
+  	<name>hive.exec.scratchdir</name>
+    <value>/hive/tmp</value>
+  </property>
 
-<!--&lt;!&ndash;默认的存储地址&ndash;&gt;-->
-<!-- <property>-->
-<!--  <name>hive.metastore.warehouse.dir</name>-->
-<!--  <value>/hive/warehouse</value>-->
-<!--</property>-->
+<!--默认的存储地址-->
+ <property>
+  <name>hive.metastore.warehouse.dir</name>
+  <value>/hive/warehouse</value>
+</property>
 
-<!-- <property>-->
-<!--   <name>hive.querylog.location</name>-->
-<!--   <value>/hive/log</value>-->
-<!-- </property> -->
+ <property>
+   <name>hive.querylog.location</name>
+   <value>/hive/log</value>
+ </property>
 
 </configuration>
