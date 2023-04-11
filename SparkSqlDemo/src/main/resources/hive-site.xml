@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+<!--连接数据的用户名-->
+  <property>
+      <name>javax.jdo.option.ConnectionUserName</name>
+      <value>root</value>
+  </property>
+<!--连接数据的密码-->
+  <property>
+      <name>javax.jdo.option.ConnectionPassword</name>
+      <value>changjiacheng1</value>
+  </property>
+<!--mysql数据库的访问路径，没有路径则自动创建-->
+  <property>
+      <name>javax.jdo.option.ConnectionURL</name>
+      <value>jdbc:mysql://hadoop100:3306/hive?createDatabaseIfNotExist=true&amp;useSSL=false</value>
+  </property>
+<!--连接数据库的驱动-->
+  <property>
+      <name>javax.jdo.option.ConnectionDriverName</name>
+      <value>com.mysql.cj.jdbc.Driver</value>
+  </property>
+<!-- <property>-->
+<!--  	<name>hive.exec.scratchdir</name>  -->
+<!--    <value>/hive/tmp</value>-->
+<!--  </property>-->
+
+<!--&lt;!&ndash;默认的存储地址&ndash;&gt;-->
+<!-- <property>-->
+<!--  <name>hive.metastore.warehouse.dir</name>-->
+<!--  <value>/hive/warehouse</value>-->
+<!--</property>-->
+
+<!-- <property>-->
+<!--   <name>hive.querylog.location</name>-->
+<!--   <value>/hive/log</value>-->
+<!-- </property> -->
+
+</configuration>
